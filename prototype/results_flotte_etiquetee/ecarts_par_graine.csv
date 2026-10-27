@@ -1,0 +1,41 @@
+comparaison,etiquettes,test,moyenne,par_graine,graines_positives
+JEPA-16 − Aléatoire (fine-tuné),4,M1–M4,0.0034622787500773558,+0.038 / -0.015 / -0.012,1/3
+JEPA-16 − JEPA-4 (fine-tuné),4,M1–M4,-0.00011339681974672129,+0.021 / +0.021 / -0.043,2/3
+JEPA-16 − Autoencodeur-16 (fine-tuné),4,M1–M4,0.02966889029192173,+0.028 / +0.018 / +0.042,3/3
+Autoencodeur-16 − Aléatoire (fine-tuné),4,M1–M4,-0.026206611541844376,+0.009 / -0.033 / -0.055,1/3
+JEPA-16 − Aléatoire (sonde),4,M1–M4,0.005368163175707911,+0.013 / -0.011 / +0.014,2/3
+JEPA-16 − JEPA-4 (sonde),4,M1–M4,-0.009462045670909136,+0.009 / -0.008 / -0.029,1/3
+JEPA-16 − Autoencodeur-16 (sonde),4,M1–M4,-0.01752784015981268,-0.022 / +0.013 / -0.043,1/3
+Autoencodeur-16 − Aléatoire (sonde),4,M1–M4,0.022896003335520592,+0.036 / -0.024 / +0.057,2/3
+JEPA-16 − Aléatoire (fine-tuné),16,M1–M4,0.003723900100011557,+0.012 / -0.004 / +0.003,2/3
+JEPA-16 − JEPA-4 (fine-tuné),16,M1–M4,-0.018858111668740407,-0.023 / +0.002 / -0.035,1/3
+JEPA-16 − Autoencodeur-16 (fine-tuné),16,M1–M4,0.03030161514012582,+0.029 / +0.038 / +0.024,3/3
+Autoencodeur-16 − Aléatoire (fine-tuné),16,M1–M4,-0.026577715040114264,-0.017 / -0.042 / -0.020,0/3
+JEPA-16 − Aléatoire (sonde),16,M1–M4,-0.04244962162495366,-0.051 / -0.028 / -0.049,0/3
+JEPA-16 − JEPA-4 (sonde),16,M1–M4,-0.01791161579863602,-0.006 / -0.023 / -0.024,0/3
+JEPA-16 − Autoencodeur-16 (sonde),16,M1–M4,-0.04764745983680385,-0.021 / -0.070 / -0.052,0/3
+Autoencodeur-16 − Aléatoire (sonde),16,M1–M4,0.005197838211850196,-0.030 / +0.042 / +0.003,2/3
+Boosting experts : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.030116394208293373,+0.030,
+Logistique experts : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.042479863840009235,+0.042,
+Aléatoire sonde : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.07640127271297407,+0.086 / +0.051 / +0.092,3/3
+JEPA-4 sonde : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.03703305804003939,+0.037 / +0.049 / +0.025,3/3
+Autoencodeur-4 sonde : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.028270047707714647,+0.018 / +0.046 / +0.020,3/3
+JEPA-16 sonde : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.028583487912312504,+0.021 / +0.034 / +0.030,3/3
+Autoencodeur-16 sonde : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.05870310758930367,+0.020 / +0.117 / +0.039,3/3
+Aléatoire fine-tuné : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.0824957452759703,+0.083 / +0.084 / +0.081,3/3
+JEPA-4 fine-tuné : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.10150208147489818,+0.102 / +0.114 / +0.089,3/3
+Autoencodeur-4 fine-tuné : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.07418008264073517,+0.077 / +0.044 / +0.101,3/3
+JEPA-16 fine-tuné : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.0827573666259045,+0.057 / +0.095 / +0.096,3/3
+Autoencodeur-16 fine-tuné : 16 − 4 machines étiquetées,16 vs 4,M1–M4,0.0821246417777004,+0.056 / +0.075 / +0.115,3/3
+JEPA-16 − Aléatoire (sonde),4,M1–M16,-0.02136242338213971,-0.000 / -0.028 / -0.036,0/3
+JEPA-16 − JEPA-4 (sonde),4,M1–M16,-0.0032214658878163918,-0.000 / -0.002 / -0.008,0/3
+JEPA-16 − Autoencodeur-16 (sonde),4,M1–M16,-0.0312453074910171,-0.036 / -0.000 / -0.057,0/3
+Autoencodeur-16 − Aléatoire (sonde),4,M1–M16,0.009882884108877388,+0.036 / -0.028 / +0.022,2/3
+JEPA-16 − Aléatoire (fine-tuné),16,M1–M16,-0.0010255920730443124,+0.001 / -0.007 / +0.004,2/3
+JEPA-16 − JEPA-4 (fine-tuné),16,M1–M16,-0.00418669930074352,-0.004 / +0.006 / -0.015,1/3
+JEPA-16 − Autoencodeur-16 (fine-tuné),16,M1–M16,0.012919901930625829,+0.013 / +0.025 / +0.001,3/3
+Autoencodeur-16 − Aléatoire (fine-tuné),16,M1–M16,-0.013945494003670142,-0.012 / -0.032 / +0.003,1/3
+JEPA-16 − Aléatoire (sonde),16,M1–M16,-0.03316676534621458,-0.027 / -0.030 / -0.043,0/3
+JEPA-16 − JEPA-4 (sonde),16,M1–M16,-0.006444586932240999,+0.002 / -0.013 / -0.008,1/3
+JEPA-16 − Autoencodeur-16 (sonde),16,M1–M16,-0.029152044148951117,-0.028 / -0.021 / -0.038,0/3
+Autoencodeur-16 − Aléatoire (sonde),16,M1–M16,-0.004014721197263464,+0.001 / -0.009 / -0.004,1/3

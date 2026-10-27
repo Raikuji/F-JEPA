@@ -1,0 +1,34 @@
+modele,ligne,n,positifs,roc_auc,pr_auc
+persistance (part défaut de la veille),toutes,505,106,0.5705655648555351,0.258669354233123
+persistance (part défaut de la veille),BIO2,222,27,0.5095916429249762,0.13118692677631577
+persistance (part défaut de la veille),DEMOULAGE,283,79,0.5797964755522462,0.35024240273093293
+moyenne 7 j de la part défaut,toutes,505,106,0.5697853123374474,0.27419442984834563
+moyenne 7 j de la part défaut,BIO2,222,27,0.5646723646723646,0.15617023787735457
+moyenne 7 j de la part défaut,DEMOULAGE,283,79,0.5417287168031769,0.35188307822524134
+régression logistique (features manuelles),toutes,505,106,0.5745495815009221,0.26478131838164576
+régression logistique (features manuelles),BIO2,222,27,0.6013295346628679,0.15610294285817392
+régression logistique (features manuelles),DEMOULAGE,283,79,0.5164432861752295,0.3093595846137046
+gradient boosting (features manuelles),toutes,505,106,0.5628694377453067,0.2538381863238782
+gradient boosting (features manuelles),BIO2,222,27,0.5050332383665717,0.16029298265190356
+gradient boosting (features manuelles),DEMOULAGE,283,79,0.5562174236783322,0.312724302470203
+JEPA + sonde linéaire (seed 0),toutes,505,106,0.5335745022934696,0.22565529051775338
+JEPA + sonde linéaire (seed 0),BIO2,222,27,0.6058879392212726,0.15553858062883313
+JEPA + sonde linéaire (seed 0),DEMOULAGE,283,79,0.4472573839662447,0.2597678336124122
+"JEPA score de surprise, non supervisé (seed 0)",toutes,505,106,0.5015841490518749,0.21662819108758735
+"JEPA score de surprise, non supervisé (seed 0)",BIO2,222,27,0.5318138651471984,0.14493085857487104
+"JEPA score de surprise, non supervisé (seed 0)",DEMOULAGE,283,79,0.526247207743857,0.2990209155582754
+JEPA + sonde linéaire (seed 1),toutes,505,106,0.5457984584101764,0.2602772419862086
+JEPA + sonde linéaire (seed 1),BIO2,222,27,0.6032288698955366,0.15854228343453133
+JEPA + sonde linéaire (seed 1),DEMOULAGE,283,79,0.5376644328617524,0.32944742688877493
+"JEPA score de surprise, non supervisé (seed 1)",toutes,505,106,0.5483047240743368,0.23783900305988176
+"JEPA score de surprise, non supervisé (seed 1)",BIO2,222,27,0.5329534662867996,0.15227328745281454
+"JEPA score de surprise, non supervisé (seed 1)",DEMOULAGE,283,79,0.5405807892777363,0.310503507065751
+JEPA + sonde linéaire (seed 2),toutes,505,106,0.45919042890244477,0.19191458561599573
+JEPA + sonde linéaire (seed 2),BIO2,222,27,0.5143399810066476,0.12778016344452248
+JEPA + sonde linéaire (seed 2),DEMOULAGE,283,79,0.5144576818069,0.30892902441999937
+"JEPA score de surprise, non supervisé (seed 2)",toutes,505,106,0.5186551283870053,0.22197703453806322
+"JEPA score de surprise, non supervisé (seed 2)",BIO2,222,27,0.5259259259259259,0.14128028695923087
+"JEPA score de surprise, non supervisé (seed 2)",DEMOULAGE,283,79,0.5763837180441798,0.3345412014967505
+JEPA + sonde linéaire (moyenne des 3 seeds),toutes,505,106,0.5124603962737032,0.22080775175658796
+JEPA + sonde linéaire (moyenne des 3 seeds),BIO2,222,27,0.5903133903133904,0.147242316545821
+JEPA + sonde linéaire (moyenne des 3 seeds),DEMOULAGE,283,79,0.4997517994539588,0.28813782948639066

@@ -1,0 +1,118 @@
+{
+  "CFG": {
+    "seed": 42,
+    "freq": "1min",
+    "i_idle": 4.5,
+    "i_nom": 12.0,
+    "t_rise_nom": 30.0,
+    "tau_min": 40.0,
+    "vib_base": 1.1,
+    "vib_floor": 0.05,
+    "vib_sigma": 0.08,
+    "i_sigma": 0.25,
+    "t_sigma": 0.15,
+    "n_failures": {
+      "roulement": 6,
+      "courroie": 5,
+      "blocage": 4,
+      "electrique_brutal": 3
+    },
+    "n_preventive": 3,
+    "dur_days": {
+      "roulement": [
+        14,
+        28
+      ],
+      "courroie": [
+        5,
+        14
+      ],
+      "blocage": [
+        2,
+        7
+      ],
+      "electrique_brutal": [
+        0.0104,
+        0.0104
+      ]
+    },
+    "min_stop_s": 900,
+    "margin_days": 2.0,
+    "heatwave": [
+      "2025-09-15",
+      "2025-09-20",
+      5.0
+    ],
+    "temp_drift": [
+      "2026-04-23",
+      "2026-05-05",
+      3.0
+    ],
+    "n_dropouts": 5,
+    "dropout_hours": [
+      2,
+      6
+    ],
+    "stuck": [
+      "2026-05-20 08:00",
+      12
+    ]
+  },
+  "n_rows": 526262,
+  "dropouts": [
+    [
+      "temperature",
+      "2026-02-15 12:27:00",
+      209
+    ],
+    [
+      "vibration",
+      "2026-07-16 10:17:00",
+      350
+    ],
+    [
+      "courant",
+      "2026-04-16 04:16:00",
+      258
+    ],
+    [
+      "temperature",
+      "2026-04-04 22:06:00",
+      314
+    ],
+    [
+      "vibration",
+      "2026-07-14 12:06:00",
+      250
+    ]
+  ],
+  "product_load_factor": {
+    "11 Cam 45% moulage": 1.0934890121389909,
+    "11 Cam 60% moulage": 1.0630748156752277,
+    "11 MT 200g moulage ": 0.9306413774184679,
+    "11 dormois moulage ": 1.0432826642368764,
+    "11 tartif moulage  ": 1.126401069172578,
+    "145cm Brie 60% moulage ": 1.0854504986606401,
+    "15 MT moulage": 0.9969249680713986,
+    "15 dormois moulage": 0.9907135480690341,
+    "15 tartif moulage": 1.0968556729716559,
+    "17 MT moulage ": 1.1356102990676042,
+    "19 MT haut moulage ": 1.0539407387006081,
+    "20 800 Brie 60% moulage": 0.9027817486410665,
+    "20 800+10% brie moulage": 0.9556128861679738,
+    "20 kg Brie 60% moulage": 1.1080630458637377,
+    "450 tartifs moulage ": 1.081531512490885,
+    "8 Cam 45% moulage": 1.0710416757888854,
+    "8 MT moulage": 0.9772529501415612,
+    "8 dormois moulage  ": 1.046936789666591,
+    "Carr\u00e9 220g moulage ": 0.9810709531753191,
+    "Carr\u00e9 230g moulage": 0.9935935707194103,
+    "Dormois 450g moulage": 1.0523300417144579,
+    "Fleurs moulage": 1.040019842973892,
+    "Lingot/Troubadour moulage": 1.1358733631851008,
+    "Super marcaire moulage ": 0.9118478713658678,
+    "Tarte 50% stab moulage": 1.130933469483983,
+    "Tarte 60% moulage": 1.003582874975563,
+    "inconnu": 1.0210916812116415
+  }
+}

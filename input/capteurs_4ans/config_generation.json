@@ -1,0 +1,97 @@
+{
+  "seed": 2026,
+  "machines": {
+    "M1": {
+      "nom": "Mouleuse",
+      "i0": 4.5,
+      "k_i": 7.5,
+      "tau_m": 35,
+      "tau_b": 70,
+      "v0": 1.1,
+      "s_res": 1.05,
+      "p0": 6.0
+    },
+    "M2": {
+      "nom": "D\u00e9mouleuse",
+      "i0": 3.8,
+      "k_i": 6.2,
+      "tau_m": 30,
+      "tau_b": 60,
+      "v0": 1.4,
+      "s_res": 0.95,
+      "p0": 6.2
+    },
+    "M3": {
+      "nom": "Trancheuse",
+      "i0": 5.2,
+      "k_i": 9.0,
+      "tau_m": 42,
+      "tau_b": 80,
+      "v0": 0.9,
+      "s_res": 1.1,
+      "p0": 5.8
+    },
+    "M4": {
+      "nom": "Conditionneuse",
+      "i0": 2.9,
+      "k_i": 5.1,
+      "tau_m": 28,
+      "tau_b": 55,
+      "v0": 1.7,
+      "s_res": 1.0,
+      "p0": 6.0
+    }
+  },
+  "fault_types": {
+    "refroidissement": [
+      0.24,
+      [
+        5,
+        18
+      ],
+      false
+    ],
+    "roulement": [
+      0.24,
+      [
+        6,
+        21
+      ],
+      false
+    ],
+    "courroie": [
+      0.2,
+      [
+        3,
+        12
+      ],
+      true
+    ],
+    "pneumatique": [
+      0.2,
+      [
+        3,
+        12
+      ],
+      true
+    ],
+    "electrique": [
+      0.12,
+      [
+        0,
+        0
+      ],
+      false
+    ]
+  },
+  "gap_days": [
+    12,
+    40
+  ],
+  "outcome_p": {
+    "panne": 0.55,
+    "ralentissement": 0.25,
+    "preventif": 0.2
+  },
+  "n_products": 12
+}

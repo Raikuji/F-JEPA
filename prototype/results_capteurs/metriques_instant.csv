@@ -1,0 +1,85 @@
+pli,modele,roc_auc,pr_auc,famille
+A,"Hasard (bruit lissé, référence)",0.4691786910792165,0.3636621080938691,"Hasard (bruit lissé, référence)"
+A,Seuil de température (24 h),0.7502928390396273,0.7044819408377508,Seuil de température (24 h)
+A,EWMA vibration (z-score),0.7126177021199455,0.5490924837334017,EWMA vibration (z-score)
+A,Résidus physiques (max),0.7314090787074642,0.5575929383023044,Résidus physiques (max)
+A,Régression logistique (variables manuelles),0.6697621031420932,0.5117466075580537,Régression logistique (variables manuelles)
+A,Gradient boosting (variables manuelles),0.5954167204119268,0.5016310107019032,Gradient boosting (variables manuelles)
+A,JEPA + sonde linéaire (seed 0),0.6750924708991204,0.576882747295853,JEPA + sonde linéaire
+A,"JEPA surprise, non supervisé (seed 0)",0.5242027980073001,0.4073796823958105,"JEPA surprise, non supervisé"
+A,"JEPA distance à la normale, non supervisé (seed 0)",0.509501580982196,0.3784997316059047,"JEPA distance à la normale, non supervisé"
+A,Boosting variables manuelles + embeddings JEPA (seed 0),0.6322447158241153,0.5931268476490199,Boosting variables manuelles + embeddings JEPA
+A,"Transformer supervisé, initialisé par le JEPA (seed 0)",0.6248801625953906,0.5505994480718422,"Transformer supervisé, initialisé par le JEPA"
+A,"Transformer supervisé, initialisation aléatoire (seed 0)",0.5772057926350981,0.42001830279367613,"Transformer supervisé, initialisation aléatoire"
+A,JEPA + sonde linéaire (seed 1),0.5819888302823457,0.48876502859140425,JEPA + sonde linéaire
+A,"JEPA surprise, non supervisé (seed 1)",0.5275286128144969,0.4240680161195412,"JEPA surprise, non supervisé"
+A,"JEPA distance à la normale, non supervisé (seed 1)",0.5017814374910666,0.3612931393131664,"JEPA distance à la normale, non supervisé"
+A,Boosting variables manuelles + embeddings JEPA (seed 1),0.7954066104927017,0.7121483557447473,Boosting variables manuelles + embeddings JEPA
+A,"Transformer supervisé, initialisé par le JEPA (seed 1)",0.5643330765181438,0.46017152988467697,"Transformer supervisé, initialisé par le JEPA"
+A,"Transformer supervisé, initialisation aléatoire (seed 1)",0.6058325518481978,0.5249402972861553,"Transformer supervisé, initialisation aléatoire"
+A,JEPA + sonde linéaire (seed 2),0.5641056033355761,0.48853002684528696,JEPA + sonde linéaire
+A,"JEPA surprise, non supervisé (seed 2)",0.5467740642223904,0.41846596031627925,"JEPA surprise, non supervisé"
+A,"JEPA distance à la normale, non supervisé (seed 2)",0.5075057434799737,0.3671449897997222,"JEPA distance à la normale, non supervisé"
+A,Boosting variables manuelles + embeddings JEPA (seed 2),0.7213514521678804,0.6045577910930424,Boosting variables manuelles + embeddings JEPA
+A,"Transformer supervisé, initialisé par le JEPA (seed 2)",0.5989813384835818,0.5154715722314752,"Transformer supervisé, initialisé par le JEPA"
+A,"Transformer supervisé, initialisation aléatoire (seed 2)",0.5807407781848859,0.43820443944532195,"Transformer supervisé, initialisation aléatoire"
+A,JEPA + sonde linéaire (seed 3),0.5320205545116385,0.3651565619697086,JEPA + sonde linéaire
+A,"JEPA surprise, non supervisé (seed 3)",0.4865555505199635,0.380285159031453,"JEPA surprise, non supervisé"
+A,"JEPA distance à la normale, non supervisé (seed 3)",0.6165708548459631,0.46815986284327393,"JEPA distance à la normale, non supervisé"
+A,Boosting variables manuelles + embeddings JEPA (seed 3),0.7616586542651658,0.6947732017473648,Boosting variables manuelles + embeddings JEPA
+A,"Transformer supervisé, initialisé par le JEPA (seed 3)",0.4794027826681122,0.33015014734604153,"Transformer supervisé, initialisé par le JEPA"
+A,"Transformer supervisé, initialisation aléatoire (seed 3)",0.46581278521302294,0.3269359825369947,"Transformer supervisé, initialisation aléatoire"
+A,JEPA + sonde linéaire (seed 4),0.5866367784916698,0.40814219964382975,JEPA + sonde linéaire
+A,"JEPA surprise, non supervisé (seed 4)",0.5371469807946396,0.42639593685125005,"JEPA surprise, non supervisé"
+A,"JEPA distance à la normale, non supervisé (seed 4)",0.528292086024954,0.3777452070489423,"JEPA distance à la normale, non supervisé"
+A,Boosting variables manuelles + embeddings JEPA (seed 4),0.6264332553591287,0.5680911412582809,Boosting variables manuelles + embeddings JEPA
+A,"Transformer supervisé, initialisé par le JEPA (seed 4)",0.5732733826743874,0.474939673273808,"Transformer supervisé, initialisé par le JEPA"
+A,"Transformer supervisé, initialisation aléatoire (seed 4)",0.5471488284695326,0.42298746748668026,"Transformer supervisé, initialisation aléatoire"
+A,JEPA + sonde linéaire — ensemble 5 seeds,0.6022749061346293,0.4758514178350744,JEPA + sonde linéaire — ensemble 5 seeds
+A,"JEPA surprise, non supervisé — ensemble 5 seeds",0.5292804177836965,0.41774609579433186,"JEPA surprise, non supervisé — ensemble 5 seeds"
+A,"JEPA distance à la normale, non supervisé — ensemble 5 seeds",0.5359093872343096,0.38794919134506933,"JEPA distance à la normale, non supervisé — ensemble 5 seeds"
+A,Boosting variables manuelles + embeddings JEPA — ensemble 5 seeds,0.7526608261547095,0.7006705460652495,Boosting variables manuelles + embeddings JEPA — ensemble 5 seeds
+A,"Transformer supervisé, initialisé par le JEPA — ensemble 5 seeds",0.5725351842619932,0.42671411424195693,"Transformer supervisé, initialisé par le JEPA — ensemble 5 seeds"
+A,"Transformer supervisé, initialisation aléatoire — ensemble 5 seeds",0.5594628843948167,0.403839291268551,"Transformer supervisé, initialisation aléatoire — ensemble 5 seeds"
+B,"Hasard (bruit lissé, référence)",0.5149323732606792,0.4420730978456495,"Hasard (bruit lissé, référence)"
+B,Seuil de température (24 h),0.6582011611689533,0.5674240968690056,Seuil de température (24 h)
+B,EWMA vibration (z-score),0.7576296584606401,0.6912173405975679,EWMA vibration (z-score)
+B,Résidus physiques (max),0.7363471830300672,0.5695134925923109,Résidus physiques (max)
+B,Régression logistique (variables manuelles),0.574536018941974,0.5420357063059604,Régression logistique (variables manuelles)
+B,Gradient boosting (variables manuelles),0.6040517660795952,0.4577282890093295,Gradient boosting (variables manuelles)
+B,JEPA + sonde linéaire (seed 0),0.6201472543868185,0.5451881944695391,JEPA + sonde linéaire
+B,"JEPA surprise, non supervisé (seed 0)",0.6743277869676624,0.5951725729283275,"JEPA surprise, non supervisé"
+B,"JEPA distance à la normale, non supervisé (seed 0)",0.6673763419934482,0.6888404099264562,"JEPA distance à la normale, non supervisé"
+B,Boosting variables manuelles + embeddings JEPA (seed 0),0.597550517336447,0.5049087380781465,Boosting variables manuelles + embeddings JEPA
+B,"Transformer supervisé, initialisé par le JEPA (seed 0)",0.685531445622912,0.5555904581564084,"Transformer supervisé, initialisé par le JEPA"
+B,"Transformer supervisé, initialisation aléatoire (seed 0)",0.6570361000291913,0.5358566133947532,"Transformer supervisé, initialisation aléatoire"
+B,JEPA + sonde linéaire (seed 1),0.732966170412896,0.6570928362087098,JEPA + sonde linéaire
+B,"JEPA surprise, non supervisé (seed 1)",0.6186675748435018,0.5657791308788652,"JEPA surprise, non supervisé"
+B,"JEPA distance à la normale, non supervisé (seed 1)",0.6221128085368622,0.5489259188714162,"JEPA distance à la normale, non supervisé"
+B,Boosting variables manuelles + embeddings JEPA (seed 1),0.6220142064804904,0.5142431045177023,Boosting variables manuelles + embeddings JEPA
+B,"Transformer supervisé, initialisé par le JEPA (seed 1)",0.7379455742596737,0.5948221813618698,"Transformer supervisé, initialisé par le JEPA"
+B,"Transformer supervisé, initialisation aléatoire (seed 1)",0.6811014887613116,0.5359323421851238,"Transformer supervisé, initialisation aléatoire"
+B,JEPA + sonde linéaire (seed 2),0.6378949758360091,0.5069758030086424,JEPA + sonde linéaire
+B,"JEPA surprise, non supervisé (seed 2)",0.7008543349226428,0.6476679688636798,"JEPA surprise, non supervisé"
+B,"JEPA distance à la normale, non supervisé (seed 2)",0.6106866465570367,0.611182596518544,"JEPA distance à la normale, non supervisé"
+B,Boosting variables manuelles + embeddings JEPA (seed 2),0.6571074567805131,0.5404700669972147,Boosting variables manuelles + embeddings JEPA
+B,"Transformer supervisé, initialisé par le JEPA (seed 2)",0.7083091693425448,0.5755585236462278,"Transformer supervisé, initialisé par le JEPA"
+B,"Transformer supervisé, initialisation aléatoire (seed 2)",0.6878576757160002,0.5452033723488732,"Transformer supervisé, initialisation aléatoire"
+B,JEPA + sonde linéaire (seed 3),0.6636203820829685,0.5378605519202111,JEPA + sonde linéaire
+B,"JEPA surprise, non supervisé (seed 3)",0.658594271998962,0.6044276376704686,"JEPA surprise, non supervisé"
+B,"JEPA distance à la normale, non supervisé (seed 3)",0.646541468002984,0.6347923739695753,"JEPA distance à la normale, non supervisé"
+B,Boosting variables manuelles + embeddings JEPA (seed 3),0.649852421264312,0.48527116099183437,Boosting variables manuelles + embeddings JEPA
+B,"Transformer supervisé, initialisé par le JEPA (seed 3)",0.7070065842820539,0.5486838933961125,"Transformer supervisé, initialisé par le JEPA"
+B,"Transformer supervisé, initialisation aléatoire (seed 3)",0.6505672861730077,0.5170141114053204,"Transformer supervisé, initialisation aléatoire"
+B,JEPA + sonde linéaire (seed 4),0.6819746359183938,0.5734742471474179,JEPA + sonde linéaire
+B,"JEPA surprise, non supervisé (seed 4)",0.6553637572573059,0.609013226110787,"JEPA surprise, non supervisé"
+B,"JEPA distance à la normale, non supervisé (seed 4)",0.6898096072135188,0.706651594617516,"JEPA distance à la normale, non supervisé"
+B,Boosting variables manuelles + embeddings JEPA (seed 4),0.6880360675943045,0.5940890748111672,Boosting variables manuelles + embeddings JEPA
+B,"Transformer supervisé, initialisé par le JEPA (seed 4)",0.6862119295514255,0.5816633388296605,"Transformer supervisé, initialisé par le JEPA"
+B,"Transformer supervisé, initialisation aléatoire (seed 4)",0.6202289903019688,0.505701202257014,"Transformer supervisé, initialisation aléatoire"
+B,JEPA + sonde linéaire — ensemble 5 seeds,0.6773513671304855,0.5608122542532463,JEPA + sonde linéaire — ensemble 5 seeds
+B,"JEPA surprise, non supervisé — ensemble 5 seeds",0.6709837501216309,0.6120263292720368,"JEPA surprise, non supervisé — ensemble 5 seeds"
+B,"JEPA distance à la normale, non supervisé — ensemble 5 seeds",0.6622418993869806,0.679850101145091,"JEPA distance à la normale, non supervisé — ensemble 5 seeds"
+B,Boosting variables manuelles + embeddings JEPA — ensemble 5 seeds,0.6520618857643281,0.5349591234360815,Boosting variables manuelles + embeddings JEPA — ensemble 5 seeds
+B,"Transformer supervisé, initialisé par le JEPA — ensemble 5 seeds",0.7139664623268787,0.5747841605742152,"Transformer supervisé, initialisé par le JEPA — ensemble 5 seeds"
+B,"Transformer supervisé, initialisation aléatoire — ensemble 5 seeds",0.6646797054912262,0.5266755252142108,"Transformer supervisé, initialisation aléatoire — ensemble 5 seeds"

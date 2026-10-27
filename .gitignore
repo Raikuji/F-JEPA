@@ -1,0 +1,17 @@
+# Caches régénérables (relus depuis input/export-137588 par F-JEPA_mouleuse.ipynb, ~4 min)
+prototype/cache/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Systèmes
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Morceaux temporaires de reassemblage
+*.part??.tmp
